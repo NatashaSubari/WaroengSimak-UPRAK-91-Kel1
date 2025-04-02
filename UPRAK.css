@@ -165,7 +165,7 @@ body {
 
 .banner {
     position: absolute;
-    height: 450px;
+    height: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
