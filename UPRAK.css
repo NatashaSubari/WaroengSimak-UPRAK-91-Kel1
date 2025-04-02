@@ -164,7 +164,7 @@ body {
 }
 
 .banner {
-    position: relative;
+    position: absolute;
     height: 450px;
     display: flex;
     align-items: center;
