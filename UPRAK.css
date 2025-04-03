@@ -875,15 +875,21 @@ div.procedurevidbiotek {
     margin-top: 30px;
 }
 
+div.vidbiotek {
+    width: 450px;
+    height: 300px;
+    border-radius: 10px;
+    display: block;
+}
+
 iframe.biotek {
     width: 450px;
     height: 300px;
     border-radius: 10px;
     display: block;
-    margin-top: 30px;
 }
 
-video.procedurevidchurros {
+div.vidchurros {
     width: 450px;
     height: 300px;
     border-radius: 10px;
