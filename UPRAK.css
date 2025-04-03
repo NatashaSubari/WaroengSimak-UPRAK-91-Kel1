@@ -1225,6 +1225,7 @@ p.texttujuan {
     font-family: "Font";
     font-size: 12px;
     letter-spacing: 1px;
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.6);
 }
 
 img.hiasantujuan {
@@ -1245,6 +1246,7 @@ p.textmanfaat {
     font-family: "Font";
     font-size: 12px;
     letter-spacing: 1px;
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.6);
 }
 
 p.textrencanaproduk {
@@ -1255,6 +1257,7 @@ p.textrencanaproduk {
     font-family: "Font";
     font-size: 12px;
     letter-spacing: 1px;
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.6);
 }
 
 p.textmat {
@@ -1267,6 +1270,7 @@ p.textmat {
     font-family: "Font";
     font-size: 12px;
     letter-spacing: 1px;
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.6);
 }
 
 ul.tempattanggal {
@@ -1276,6 +1280,7 @@ ul.tempattanggal {
     font-family: "Font";
     font-size: 12px;
     color: #f8f3e8;
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.6);
 }
 
 .tempattanggal li {
@@ -1305,6 +1310,7 @@ ul.kriteria {
     font-size: 12px;
     letter-spacing: 1px;
     list-style: disc;
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.6);
 }
 
 img.rencanaproduk {
@@ -1363,6 +1369,7 @@ p.textpromosi {
     font-family: "Font";
     font-size: 12px;
     letter-spacing: 1px;
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.6);
 }
 
 p.judulbagian {
@@ -1371,7 +1378,8 @@ p.judulbagian {
     font-weight: bold;
     color: #e1a420;
     position: relative;
-    font-family: "Font";   
+    font-family: "Font";  
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.6); 
 }
 
 p.judulvideoproses {
@@ -1380,7 +1388,8 @@ p.judulvideoproses {
     font-weight: bold;
     color: #f8f3e8;
     position: relative;
-    font-family: "Font";   
+    font-family: "Font";
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.6);   
 }
 
 div.tampilanpromosi {
@@ -1507,6 +1516,7 @@ p.textbooth {
     margin-top: 1px;
     position: relative;
     font-family: "Font";
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.6);
 }
 
 img.imagebooth {
@@ -1543,6 +1553,7 @@ ul.daftarpustaka {
     position: relative;
     list-style-type: disc;
     font-family: "Font";
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.6);
 }
 
 ul.daftarpustaka li {
@@ -1571,6 +1582,7 @@ ul.daftarpustaka a:hover {
     font-family: "Font";
     font-size: 12px;
     letter-spacing: 1px;
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.6);
 }
 
 .main-list > li {
@@ -1607,7 +1619,8 @@ p.judulprocedure {
     font-weight: bold;
     color: #e1a420;
     position: relative;
-    font-family: "Font";   
+    font-family: "Font";  
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.6); 
 }
 
 p.note {
@@ -1618,6 +1631,7 @@ p.note {
     font-family: "Font";
     font-size: 10px;
     letter-spacing: 1px;
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.6);
 }
 
 ul.refleksi {
@@ -1630,4 +1644,5 @@ ul.refleksi {
     font-size: 12px;
     letter-spacing: 1px;
     text-align: justify;
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.6);
 }
