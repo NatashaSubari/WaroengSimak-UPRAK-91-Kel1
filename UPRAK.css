@@ -1,12 +1,12 @@
 @font-face {
     font-family:"Font";
-    src: url(Font.ttf) format('truetype');
+    src: url(font/Font.ttf) format('truetype');
     font-weight: normal;
 }
 
 @font-face {
     font-family:"Judul";
-    src: url(Subjudul.otf) format('opentype');
+    src: url(font/Subjudul.otf) format('opentype');
     font-weight: normal;
 }
 
@@ -16,6 +16,7 @@
     height: 100%;
     background-image: url('Loading.png');
     background-repeat: no-repeat;
+    background-size: cover;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -141,8 +142,7 @@ div.trademark {
 
 div.footertengah {
     position: relative;
-    width: 1280px;
-    bottom: -5px;
+    background-size: cover;
 }
 
 ::-webkit-scrollbar {
