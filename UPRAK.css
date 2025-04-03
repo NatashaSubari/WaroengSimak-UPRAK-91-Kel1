@@ -1,12 +1,12 @@
 @font-face {
     font-family:"Font";
-    src: url(Font.ttf) format('truetype');
+    src: url(font/Font.ttf) format('truetype');
     font-weight: normal;
 }
 
 @font-face {
     font-family:"Judul";
-    src: url(Subjudul.otf) format('opentype');
+    src: url(font/Subjudul.otf) format('opentype');
     font-weight: normal;
 }
 
@@ -652,9 +652,9 @@ div.judulanggota {
 
 mark {
     background-color: #ffffff00;
-    font-weight: bold;
     font-family: "Font";
-    color: #e1a420;
+    color: #ffae00;
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.6);
 }
 
 p.abstract {
@@ -663,8 +663,9 @@ p.abstract {
     margin-top: 1px;
     position: relative;
     font-family: "Font";
-    font-size: 12px;
+    font-size: 14px;
     letter-spacing: 1px;
+    line-height: 1.75;
 }
 
 p.textrow2 {
