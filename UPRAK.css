@@ -170,7 +170,6 @@ body {
     justify-content: center;
     overflow: hidden;
     top: -20px;
-    background-color: rgba(0, 0, 0, 0.215);
     background-image: url('star.png');
 }
 
