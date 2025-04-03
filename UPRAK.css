@@ -1,12 +1,12 @@
 @font-face {
     font-family:"Font";
-    src: url(Font.ttf) format('truetype');
+    src: url(font/Font.ttf) format('truetype');
     font-weight: normal;
 }
 
 @font-face {
     font-family:"Judul";
-    src: url(Subjudul.otf) format('opentype');
+    src: url(font/Subjudul.otf) format('opentype');
     font-weight: normal;
 }
 
@@ -1321,7 +1321,8 @@ div.columnrencanaproduk {
     max-width: 955px;
     margin: auto;
     margin-top: 20px;
-    height: 4100px;
+    height: auto;
+    padding-bottom: 50px;
     background-color: #a82f8fcd;
     border: 2px solid #ffcf05;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
