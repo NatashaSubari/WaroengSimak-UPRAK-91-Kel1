@@ -1,12 +1,12 @@
 @font-face {
     font-family:"Font";
-    src: url(Font.ttf) format('truetype');
+    src: url(font/Font.ttf) format('truetype');
     font-weight: normal;
 }
 
 @font-face {
     font-family:"Judul";
-    src: url(Subjudul.otf) format('opentype');
+    src: url(font/Subjudul.otf) format('opentype');
     font-weight: normal;
 }
 
@@ -779,8 +779,10 @@ ol.tujuanmanfaat {
     margin-top: 1px;
     position: relative;
     font-family: "Font";
-    font-size: 12px;
+    font-size: 14px;
     letter-spacing: 1px;
+    line-height: 1.75;
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.6);
 }
 
 p.bagimanfaat {
@@ -789,7 +791,11 @@ p.bagimanfaat {
     font-weight: bold;
     color: #e1a420;
     position: relative;
-    font-family: "Font";   
+    font-family: "Font";
+    font-size: 14px;
+    letter-spacing: 1px;
+    line-height: 1.75;
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.6);
 }
 
 img.hiasanmanfaat {
@@ -848,7 +854,7 @@ video.rencana {
     overflow: hidden;
     display: block;
     margin-left: 500px;
-    margin-top: -140px;
+    margin-top: -240px;
 }
 
 video.vidpromo {
@@ -1225,8 +1231,9 @@ p.texttujuan {
     margin-top: 1px;
     position: relative;
     font-family: "Font";
-    font-size: 12px;
+    font-size: 14px;
     letter-spacing: 1px;
+    line-height: 1.75;
     text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.6);
 }
 
@@ -1246,8 +1253,9 @@ p.textmanfaat {
     margin-top: 1px;
     position: relative;
     font-family: "Font";
-    font-size: 12px;
+    font-size: 14px;
     letter-spacing: 1px;
+    line-height: 1.75;
     text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.6);
 }
 
@@ -1257,8 +1265,9 @@ p.textrencanaproduk {
     margin-top: 1px;
     position: relative;
     font-family: "Font";
-    font-size: 12px;
+    font-size: 14px;
     letter-spacing: 1px;
+    line-height: 1.75;
     text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.6);
 }
 
@@ -1270,8 +1279,9 @@ p.textmat {
     margin-top: 1px;
     position: relative;
     font-family: "Font";
-    font-size: 12px;
+    font-size: 14px;
     letter-spacing: 1px;
+    line-height: 1.75;
     text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.6);
 }
 
@@ -1280,7 +1290,9 @@ ul.tempattanggal {
     padding: 0;
     width: max-content;
     font-family: "Font";
-    font-size: 12px;
+    font-size: 14px;
+    letter-spacing: 1px;
+    line-height: 1.75;
     color: #f8f3e8;
     text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.6);
 }
@@ -1309,8 +1321,9 @@ ul.kriteria {
     margin-top: 1px;
     position: relative;
     font-family: "Font";
-    font-size: 12px;
+    font-size: 14px;
     letter-spacing: 1px;
+    line-height: 1.75;
     list-style: disc;
     text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.6);
 }
@@ -1369,8 +1382,9 @@ p.textpromosi {
     margin-top: 1px;
     position: relative;
     font-family: "Font";
-    font-size: 12px;
+    font-size: 14px;
     letter-spacing: 1px;
+    line-height: 1.75;
     text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.6);
 }
 
@@ -1513,7 +1527,9 @@ img.whatsapppromosi {
 
 p.textbooth {
     text-align: justify;
-    font-size: 12px;
+    font-size: 14px;
+    letter-spacing: 1px;
+    line-height: 1.75;
     color: #f8f3e8;
     margin-top: 1px;
     position: relative;
@@ -1546,10 +1562,11 @@ img.imagebooth2 {
 
 ul.daftarpustaka {
     text-align: justify;
-    font-size: 16px;
     font-weight: bold;
     text-align: justify;
-    font-size: 12px;
+    font-size: 14px;
+    letter-spacing: 1px;
+    line-height: 1.75;
     color: #f8f3e8;
     margin-top: 1px;
     position: relative;
@@ -1582,8 +1599,9 @@ ul.daftarpustaka a:hover {
     margin-top: 1px;
     position: relative;
     font-family: "Font";
-    font-size: 12px;
+    font-size: 14px;
     letter-spacing: 1px;
+    line-height: 1.75;
     text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.6);
 }
 
@@ -1633,6 +1651,7 @@ p.note {
     font-family: "Font";
     font-size: 10px;
     letter-spacing: 1px;
+    line-height: 1.75;
     text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.6);
 }
 
@@ -1643,8 +1662,9 @@ ul.refleksi {
     margin-top: 1px;
     position: relative;
     font-family: "Font";
-    font-size: 12px;
+    font-size: 14px;
     letter-spacing: 1px;
+    line-height: 1.75;
     text-align: justify;
     text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.6);
 }
