@@ -1,12 +1,12 @@
 @font-face {
     font-family:"Font";
-    src: url(Font.ttf) format('truetype');
+    src: url(font/Font.ttf) format('truetype');
     font-weight: normal;
 }
 
 @font-face {
     font-family:"Judul";
-    src: url(Subjudul.otf) format('opentype');
+    src: url(font/Subjudul.otf) format('opentype');
     font-weight: normal;
 }
 
@@ -15,6 +15,7 @@
     width: 100%;
     height: 100%;
     background-image: url('Loading.png');
+    background-repeat: no-repeat;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -876,7 +877,7 @@ div.procedurevidbiotek {
 
 iframe.biotek {
     width: 450px;
-    height: auto;
+    height: 300px;
     border-radius: 10px;
     display: block;
     margin-top: 30px;
@@ -884,7 +885,14 @@ iframe.biotek {
 
 video.procedurevidchurros {
     width: 450px;
-    height: auto;
+    height: 300px;
+    border-radius: 10px;
+    display: block;
+}
+
+iframe.churros {
+    width: 450px;
+    height: 300px;
     border-radius: 10px;
     display: block;
 }
@@ -1174,8 +1182,10 @@ p.latarbelakang {
     margin-top: 1px;
     position: relative;
     font-family: "Font";
-    font-size: 12px;
+    font-size: 14px;
     letter-spacing: 1px;
+    line-height: 1.75;
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.6);
 }
 
 em {
@@ -1186,8 +1196,8 @@ img.hiasanlatarbelakang {
     width: 200px;
     height: auto;
     position: relative;
-    margin-top: -200px;
-    margin-bottom: -50px;
+    margin-top: -45px;
+    margin-bottom: -90px;
     z-index: 50;
 }
 
@@ -1195,7 +1205,7 @@ img.hiasanlatarbelakang2 {
     width: 200px;
     height: auto;
     position: relative;
-    margin-top: -200px;
+    margin-top: -150px;
     margin-left: 1090px;
     margin-bottom: -25px;
     z-index: 50;
@@ -1217,7 +1227,7 @@ img.hiasantujuan {
     position: relative;
     margin-bottom: -300px;
     margin-left: 1000px;
-    top: -150px;
+    top: -100px;
     z-index: 50;
 }
 
