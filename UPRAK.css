@@ -1,12 +1,12 @@
 @font-face {
     font-family:"Font";
-    src: url(Font.ttf) format('truetype');
+    src: url(font/Font.ttf) format('truetype');
     font-weight: normal;
 }
 
 @font-face {
     font-family:"Judul";
-    src: url(Subjudul.otf) format('opentype');
+    src: url(font/Subjudul.otf) format('opentype');
     font-weight: normal;
 }
 
@@ -1645,4 +1645,48 @@ ul.refleksi {
     letter-spacing: 1px;
     text-align: justify;
     text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.6);
+}
+
+div.slideshow-container {
+    width: 1000px;
+    overflow: hidden;
+    position: relative;
+    display: flex;
+    margin: auto;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+    max-width: 1000px;
+}
+  
+div.slide-track {
+    display: flex;
+    width: 1000px;
+}
+  
+div.slide {
+    flex: 0 0 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation: slide 15s infinite linear;
+}
+  
+img.slide {
+    width: 100%;
+    height: auto;
+}
+
+@keyframes slide {
+    0% { transform: translateX(0); }
+    10% { transform: translateX(0); }
+    20% { transform: translateX(-1000px); }
+    30% { transform: translateX(-1000px); }
+    40% { transform: translateX(-2000px); }
+    50% { transform: translateX(-2000px); }
+    60% { transform: translateX(-3000px); }
+    70% { transform: translateX(-3000px); }
+    80% { transform: translateX(-4000px); }
+    90% { transform: translateX(-4000px); }
+    100% { transform: translateX(-5000px); }
 }
