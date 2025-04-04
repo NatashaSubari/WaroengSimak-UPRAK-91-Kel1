@@ -919,14 +919,19 @@ iframe.churros {
     display: block;
 }
 
-iframe.vidagama {
+div.vidagama {
     width: 450px;
     height: 300px;
-    height: auto;
     border-radius: 10px;
-    overflow: hidden;
     display: block;
     margin-left: 275px;
+}
+
+iframe.agama {
+    width: 450px;
+    height: 300px;
+    border-radius: 10px;
+    display: block;
 }
 
 video.pelaksanaan {
