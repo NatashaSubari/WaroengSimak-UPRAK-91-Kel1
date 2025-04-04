@@ -1,12 +1,12 @@
 @font-face {
     font-family:"Font";
-    src: url(Font.ttf) format('truetype');
+    src: url(font/Font.ttf) format('truetype');
     font-weight: normal;
 }
 
 @font-face {
     font-family:"Judul";
-    src: url(Subjudul.otf) format('opentype');
+    src: url(font/Subjudul.otf) format('opentype');
     font-weight: normal;
 }
 
@@ -1616,28 +1616,34 @@ ul.daftarpustaka a:hover {
 .main-list > li {
     font-weight: bold;
     counter-increment: section;
+    text-align: justify;
 }
 
 .main-list > li::before {
     content: counter(section, upper-alpha) ". ";
+    text-align: justify;
 }
 
 .main-list ol {
     list-style-type: decimal;
     margin-left: 20px;
+    text-align: justify;
 }
 
 .main-list ul {
     list-style-type: square;
     margin-left: 20px;
+    text-align: justify;
 }
 
 li {
     margin-bottom: 8px;
+    text-align: justify;
 }
 
 ul, ol {
     padding-left: 20px;
+    text-align: justify;
 }
 
 
