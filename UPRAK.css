@@ -1,12 +1,12 @@
 @font-face {
     font-family:"Font";
-    src: url(Font.ttf) format('truetype');
+    src: url(font/Font.ttf) format('truetype');
     font-weight: normal;
 }
 
 @font-face {
     font-family:"Judul";
-    src: url(Subjudul.otf) format('opentype');
+    src: url(font/Subjudul.otf) format('opentype');
     font-weight: normal;
 }
 
@@ -888,6 +888,14 @@ div.vidbiotek {
     height: 300px;
     border-radius: 10px;
     display: block;
+}
+
+div.vidbiotekproduk {
+    width: 450px;
+    height: 300px;
+    border-radius: 10px;
+    display: block;
+    margin-top: 675px;
 }
 
 iframe.biotek {
