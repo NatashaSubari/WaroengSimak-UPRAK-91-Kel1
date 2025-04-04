@@ -1,12 +1,12 @@
 @font-face {
     font-family:"Font";
-    src: url(Font.ttf) format('truetype');
+    src: url(font/Font.ttf) format('truetype');
     font-weight: normal;
 }
 
 @font-face {
     font-family:"Judul";
-    src: url(Subjudul.otf) format('opentype');
+    src: url(font/Subjudul.otf) format('opentype');
     font-weight: normal;
 }
 
@@ -1347,6 +1347,8 @@ ul.matlist {
     line-height: 1.75;
     list-style: disc;
     text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.6);
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 img.rencanaproduk {
