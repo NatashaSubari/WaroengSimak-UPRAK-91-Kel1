@@ -844,7 +844,17 @@ video.lampiran2 {
     overflow: hidden;
     display: block;
     margin-left: 500px;
-    top: -840px;
+    margin-top: -800px;
+}
+
+video.lampiran3 {
+    width: 450px;
+    height: auto;
+    border-radius: 10px;
+    overflow: hidden;
+    display: block;
+    margin-left: 500px;
+    margin-top: 20px;
 }
 
 video.rencana {
@@ -1746,4 +1756,75 @@ img.slide {
     80% { transform: translateX(-4000px); }
     90% { transform: translateX(-4000px); }
     100% { transform: translateX(-5000px); }
+}
+
+
+div.slideshow-container2 {
+    width: 1000px;
+    overflow: hidden;
+    position: relative;
+    display: flex;
+    margin: auto;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+    max-width: 1000px;
+    margin-top: 300px;
+}
+  
+div.slide-track2 {
+    display: flex;
+    width: 1000px;
+}
+  
+div.slide2 {
+    flex: 0 0 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation: slide2 30s infinite linear;
+}
+  
+img.slide {
+    width: 100%;
+    height: auto;
+}
+
+@keyframes slide2 {
+    0% { transform: translateX(0); }
+    5% { transform: translateX(0); }
+    10% { transform: translateX(-1000px); }
+    15% { transform: translateX(-1000px); }
+    20% { transform: translateX(-2000px); }
+    25% { transform: translateX(-2000px); }
+    30% { transform: translateX(-3000px); }
+    35% { transform: translateX(-3000px); }
+    40% { transform: translateX(-4000px); }
+    45% { transform: translateX(-4000px); }
+    50% { transform: translateX(-4000px); }
+    55% { transform: translateX(-5000px); }
+    60% { transform: translateX(-5000px); }
+    65% { transform: translateX(-6000px); }
+    70% { transform: translateX(-6000px); }
+    75% { transform: translateX(-7000px); }
+    80% { transform: translateX(-7000px); }
+    85% { transform: translateX(-8000px); }
+    90% { transform: translateX(-8000px); }
+    95% { transform: translateX(-9000px); }
+    100% { transform: translateX(-9000px); }
+}
+
+div.carousellampiran {
+    margin-top: 75px;
+}
+
+div.Carousel-bottomlampiran {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: -75px;
 }
