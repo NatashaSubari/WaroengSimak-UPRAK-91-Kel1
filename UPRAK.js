@@ -23,7 +23,6 @@ document.addEventListener("DOMContentLoaded", function () {
     });
 });
 
-
 window.onscroll = function() {
     let scrollTopBtn = document.getElementById("scrollTopBtn");
 
@@ -34,7 +33,6 @@ window.onscroll = function() {
     }
 };
 
-// Smooth scroll to top function
 function scrollToTop() {
     window.scrollTo({ top: 0, behavior: "smooth" });
 }
@@ -55,7 +53,7 @@ document.addEventListener("DOMContentLoaded", function () {
     const openBox = document.getElementById("openBox");
     const popup = document.getElementById("popup");
 
-    let isOpen = false; // Track state
+    let isOpen = false;
 
     boxContainer.addEventListener("click", function () {
         if (!isOpen) {
@@ -101,7 +99,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
         setTimeout(() => {
             effect.remove();
-        }, 500); // Matches fade-out duration
+        }, 500);
     });
 });
 document.addEventListener("DOMContentLoaded", function () {
@@ -177,82 +175,47 @@ window.addEventListener("scroll", function() {
     rightImage.style.transform = `translate(-${movePercentage * (window.innerWidth - rightImage.offsetWidth)}px, -50%)`;
 });
 
-
-let angle = 0;
-const items = document.querySelectorAll('.item');
-const totalItems = items.length;
-const carousel = document.querySelector('.carousel');
-
-function updateItems() {
-    items.forEach((item, index) => {
-        const rotation = (360 / totalItems) * index + angle;
-        item.style.transform = `rotateY(${rotation}deg) translateZ(250px)`;
-    });
-}
-
-function rotateCarousel(direction) {
-    angle += direction * (360 / totalItems);
-    updateItems();
-}
-
-items.forEach(item => {
-    item.style.transition = 'transform 0.5s ease-in-out';
-});
-
-updateItems();
-
-document.querySelector('.next').addEventListener('click', () => rotateCarousel(-1));
-document.querySelector('.prev').addEventListener('click', () => rotateCarousel(1));
-
 document.addEventListener("DOMContentLoaded", () => {
-    const slides = document.querySelectorAll('.slide');
-    let currentIndex = 0;
+    let angle = 0;
+    const items = document.querySelectorAll('.item');
+    const totalItems = items.length;
+    const carousel = document.querySelector('.carousel');
 
-    function nextSlide() {
-        slides[currentIndex].classList.remove('active');
-        currentIndex = (currentIndex + 1) % slides.length;
-        slides[currentIndex].classList.add('active');
+    if (!carousel || items.length === 0) return; // Prevents errors if the carousel is missing on some pages
+
+    function updateItems() {
+        items.forEach((item, index) => {
+            const rotation = (360 / totalItems) * index + angle;
+            item.style.transform = `rotateY(${rotation}deg) translateZ(250px)`;
+        });
     }
 
-    setInterval(nextSlide, 3000); // Change slide every 3 seconds
+    function rotateCarousel(direction) {
+        angle += direction * (360 / totalItems);
+        updateItems();
+    }
+
+    items.forEach(item => {
+        item.style.transition = 'transform 0.5s ease-in-out';
+    });
+
+    updateItems();
+
+    document.querySelector('.next')?.addEventListener('click', () => rotateCarousel(-1));
+    document.querySelector('.prev')?.addEventListener('click', () => rotateCarousel(1));
+
+    const slides = document.querySelectorAll('.slide');
+    if (slides.length > 0) {
+        let currentIndex = 0;
+
+        function nextSlide() {
+            slides[currentIndex].classList.remove('active');
+            currentIndex = (currentIndex + 1) % slides.length;
+            slides[currentIndex].classList.add('active');
+        }
+
+        setInterval(nextSlide, 3000);
+    }
 });
 
-let slideIndex = 1;
-showSlides(slideIndex);
-
-function plusSlides(n) {
-    showSlides(slideIndex += n);
-}
-
-function currentSlide(n) {
-    showSlides(slideIndex = n);
-}
-
-function showSlides(n) {
-    let slides = document.getElementsByClassName("slide");
-    let dots = document.getElementsByClassName("dot");
-
-    if (n > slides.length) {
-        slideIndex = 1;
-    }
-    if (n < 1) {
-        slideIndex = slides.length;
-    }
-
-    for (let i = 0; i < slides.length; i++) {
-        slides[i].style.display = "none";
-    }
-
-    for (let i = 0; i < dots.length; i++) {
-        dots[i].className = dots[i].className.replace(" active", "");
-    }
-
-    slides[slideIndex - 1].style.display = "block";
-    dots[slideIndex - 1].className += " active";
-}
-
-// Auto slide function
-setInterval(() => {
-    plusSlides(1);
-}, 3000);
 

@@ -1187,21 +1187,6 @@ button.prev, button.next {
 .e { transform: rotateY(240deg) translateZ(250px); }
 .f { transform: rotateY(300deg) translateZ(250px); }
 
-/* Buttons */
-.prev, .next {
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    padding: 10px 15px;
-    background-color: #a82f90;
-    border-radius: 5px;
-    font-size: 16px;
-    cursor: pointer;
-    border: none;
-    box-shadow: 0 4px 0 #513984;
-    transition: all 0.2s;
-}
-
 .prev { left: -60px; }
 .next { right: -60px; }
 
